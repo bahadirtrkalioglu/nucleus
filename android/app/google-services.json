@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "843577686886",
+    "firebase_url": "https://reactor-fba47-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "reactor-fba47",
+    "storage_bucket": "reactor-fba47.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:843577686886:android:a5cff2f46ba6ccec4c66a7",
+        "android_client_info": {
+          "package_name": "com.example.nucleus"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBI809DA0BtmJYhYEeUxdBwIfj1sdPZaUE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
