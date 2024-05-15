@@ -92,8 +92,8 @@ class _NeumorphicThresholdSettingWidgetState
           ElevatedButton(
             onPressed: _handleButtonPress,
             style: ElevatedButton.styleFrom(
-              primary: Colors.grey[300], // Butonun arkaplan rengi
-              onPrimary: Colors.black, // Buton metni rengi
+              foregroundColor: Colors.black,
+              backgroundColor: Colors.grey[300], // Buton metni rengi
               elevation: 6.0, // Gölgelendirme
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(8.0),
