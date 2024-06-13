@@ -17,8 +17,8 @@ class NeumorphicButton extends StatelessWidget {
       child: ElevatedButton(
         onPressed: () => onPressed(),
         style: ElevatedButton.styleFrom(
-          primary: Colors.grey[200], // Butonun arkaplan rengi
-          onPrimary: Colors.black, // Buton metni rengi
+          foregroundColor: Colors.black,
+          backgroundColor: Colors.grey[200], // Buton metni rengi
           elevation: 8.0, // Gölgelendirme
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(12.0),

@@ -14,8 +14,8 @@ class EmergencyButton extends StatelessWidget {
       child: ElevatedButton(
         onPressed: () => onPressed(),
         style: ElevatedButton.styleFrom(
-          primary: Colors.red, // Acil durum butonunun rengi
-          onPrimary: Colors.white, // Buton metni rengi
+          foregroundColor: Colors.white,
+          backgroundColor: Colors.red, // Buton metni rengi
           elevation: 8.0, // Gölgelendirme
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(12.0),
