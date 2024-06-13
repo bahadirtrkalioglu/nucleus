@@ -20,23 +20,12 @@ class DevelopmentTeamPage extends StatelessWidget {
         padding: const EdgeInsets.all(16.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             TeamMemberCard(
               name: 'Bahadır Tarık Alioğlu',
               role: 'Uygulama ve Elektronik Yazılımcısı',
-              imagePath: 'assets/programmer.png', // Mimar için bir resim
-            ),
-            SizedBox(height: 16.0),
-            TeamMemberCard(
-              name: 'Bedirhan Şahin',
-              role: 'Reaktör Mimarı',
-              imagePath: 'assets/designer.png', // Tasarımcı için bir resim
-            ),
-            SizedBox(height: 16.0),
-            TeamMemberCard(
-              name: 'İsmail Hamza Küçük',
-              role: 'Devre Tasarımcısı',
-              imagePath: 'assets/engineer.png', // Yazılımcı için bir resim
+              imagePath: 'https://avatars.githubusercontent.com/u/105515680?v=4', // Mimar için bir resim
             ),
           ],
         ),
@@ -80,7 +69,7 @@ class TeamMemberCard extends StatelessWidget {
         children: [
           CircleAvatar(
             radius: 40.0,
-            backgroundImage: AssetImage(imagePath),
+            backgroundImage: NetworkImage(imagePath),
           ),
           SizedBox(width: 16.0),
           Column(
