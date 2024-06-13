@@ -13,6 +13,10 @@
 .history
 .svn/
 
+#Api Keys
+electronics/alarm/apiKeys.h
+electronics/sender/apiKeys.h
+
 # Firebase configuration files
 lib/firebase_options.dart
 ios/Runner/GoogleService-Info.plist
