@@ -1,4 +1,5 @@
 #include <Arduino.h>
+#include "apiKeys.h"
 #include <Adafruit_Sensor.h>
 #include <DHT.h>
 #include <SPI.h>
@@ -11,19 +12,19 @@
 #endif
 #include <Firebase_ESP_Client.h>
 
-//Veritabanına düzgün bağlanmak için gerekli olan ilaveler
+// Database Addons
 #include "addons/TokenHelper.h"
 #include "addons/RTDBHelper.h"
 
-// Ağ bilgilerinizi girin
-#define WIFI_SSID "S20"
-#define WIFI_PASSWORD "12345678"
+// Network Info
+#define WIFI_SSID wifiSSID
+#define WIFI_PASSWORD wifiPass
 
-// Firebase proje API Key'i girin
-#define API_KEY "AIzaSyByruEH2W5egUU_FqzPGyTFYrgvrrr4xU0"
+// Firebase API KEY
+#define API_KEY apiKey
 
-// Veritabanı URL'sini girin */
-#define DATABASE_URL "https://reactor-fba47-default-rtdb.europe-west1.firebasedatabase.app/"
+// Database URL
+#define DATABASE_URL databaseURL
 
 //Bir Firebase veri objesi oluşturalım
 FirebaseData fbdo;
