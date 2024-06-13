@@ -1,4 +1,5 @@
 #include <Arduino.h>
+#include "apiKeys.h"
 #if defined(ESP32)
 #include <WiFi.h>
 #elif defined(ESP8266)
@@ -10,14 +11,14 @@
 #include "addons/RTDBHelper.h"
 
 // Ağ bilgilerinizi girin
-#define WIFI_SSID "S20"
-#define WIFI_PASSWORD "12345678"
+#define WIFI_SSID wifiSSID
+#define WIFI_PASSWORD wifiPass
 
 // Firebase proje API Key'i girin
-#define API_KEY "AIzaSyByruEH2W5egUU_FqzPGyTFYrgvrrr4xU0"
+#define API_KEY apiKey
 
 // Veritabanı URL'sini girin */
-#define DATABASE_URL "https://reactor-fba47-default-rtdb.europe-west1.firebasedatabase.app/"
+#define DATABASE_URL databaseURL
 
 #define buzzer_pin D0
 #define red_pin D4
