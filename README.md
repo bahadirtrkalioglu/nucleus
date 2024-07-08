@@ -2,7 +2,7 @@
 # Nucleus Project
 <br>
 <div style="text-align:center;">
-    <img src="logo/logo.png" alt="Logo" width="150"/>
+    <img src="screenshots/nucleus.jpg" alt="Logo" width="512"/>
 </div>
 <br>
 Nucleus is a security protocol conceptualized for a competition setting rather than real-world deployment in nuclear facilities. It is not a real defense system it is a concept like smart home. This prototype integrates RFID for access control, MQ-2 gas sensors for detecting gas leaks, water sensors for flood detection, and DHT11 sensors for monitoring temperature and humidity. Data collected is stored in a Firebase database and visualized through a Flutter mobile application.
