@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 class DatabaseServices {
   final DatabaseReference _databaseReference =
-      FirebaseDatabase.instance.reference().child('data');
+      FirebaseDatabase.instance.ref().child('data');
 
   void updateData(var data, String key) {
     _databaseReference

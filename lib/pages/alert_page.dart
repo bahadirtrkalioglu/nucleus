@@ -16,7 +16,7 @@ class AlertPage extends StatefulWidget {
 
 class _AlertPageState extends State<AlertPage> {
   final DatabaseReference _databaseReference =
-      FirebaseDatabase.instance.reference().child('data');
+      FirebaseDatabase.instance.ref().child('data');
   @override
   Widget build(BuildContext context) {
     return Scaffold(

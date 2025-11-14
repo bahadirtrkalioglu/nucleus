@@ -13,7 +13,7 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   final DatabaseReference _databaseReference =
-      FirebaseDatabase.instance.reference().child('data');
+      FirebaseDatabase.instance.ref().child('data');
   @override
   Widget build(BuildContext context) {
     return Scaffold(
